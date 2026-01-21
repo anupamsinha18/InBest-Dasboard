@@ -158,9 +158,6 @@ const Dashboard = () => {
         labels: ['Marketing', 'Development', 'Designing', 'Claim'],
         datasets: [
             {
-                data: [35, 30, 20, 15],
-                backgroundColor: ['#FEDB9B', '#FFB020', '#6554C0', '#67CBAC'],
-
                 data: [75, 25],
                 backgroundColor: ['#0052CC', '#DEEBFF'],
                 borderWidth: 0,
@@ -229,7 +226,6 @@ const Dashboard = () => {
                 borderColor: '#979797',
                 backgroundColor: 'rgba(151, 160, 175, 0.0)',
                 borderDash: [5, 5],
-                borderDash: [],
                 fill: false,
                 tension: 0.4,
                 pointRadius: 0,
@@ -386,7 +382,7 @@ const Dashboard = () => {
 
                 <div className={styles.chartsRowBottom}>
                     <div className={styles.chartCard}>
-                        <h3 className={styles.chartTitle} style={{ marginBottom: '1rem', padding: '10px 20px', backgroundColor: '#D9D9D9' }}>Total Payroll by Month</h3>
+                        <h3 className={styles.chartTitle} style={{ marginBottom: '1rem', padding: '10px 20px', backgroundColor: '#FCFCFC' }}>Total Payroll by Month</h3>
                         <div style={{ height: '350px', padding: '10px' }}>
                             <Line data={lineData} options={totalPayrollOptions} />
                         </div>
