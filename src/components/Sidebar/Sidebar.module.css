@@ -99,7 +99,7 @@
     visibility: visible;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .sidebar {
         position: fixed;
         left: 0;
